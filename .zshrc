@@ -99,3 +99,8 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 source $HOME/.aliases
+
+# Prompt
+prompt_dir() {
+    prompt_segment blue black '%1~'
+}
