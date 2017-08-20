@@ -1,12 +1,16 @@
 [alias]
+		# List aliases
+		aliases = config --get-regexp alias
+
     # List contributors with number of commits
     contributors = shortlog --summary --numbered --all
 
     # Show commit graph for all branches
     graph = log --all --date-order --decorate --graph --oneline
 
-    # List aliases
-    aliases = config --get-regexp alias
+		# Ignore changes to a committed file
+		ignore = update-index --assume-unchanged
+		unignore = update-index --no-assume-unchanged
 
     # Shorthands for commonly used commands
     a = add
