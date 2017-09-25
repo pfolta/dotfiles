@@ -58,5 +58,6 @@ $ brew install zsh-syntax-highlighting
 
 ## Acknowledgements
 
-* [Elliot Jackson](https://www.youtube.com/channel/UCX7q8yu2aY7AnwfoOeCEcgw) and his [screencast on managing a dotfiles repository with GitHub](https://www.youtube.com/watch?v=awtfkl50bUQ)
+* [Elliot Jackson](https://www.youtube.com/channel/UCX7q8yu2aY7AnwfoOeCEcgw) and his [screencast on managing dotfiles with GitHub](https://www.youtube.com/watch?v=awtfkl50bUQ)
 * [Mathias Bynens](https://mathiasbynens.be/) and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles)
+* [Kevin Smets](https://github.com/kevin-smets) and his [instructions on customizing OhMyZSH and iTerm](https://gist.github.com/kevin-smets/8568070)
