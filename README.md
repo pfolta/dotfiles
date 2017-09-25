@@ -55,3 +55,8 @@ $ brew install zsh-autosuggestions
 $ brew install zsh zsh-completions
 $ brew install zsh-syntax-highlighting
 ```
+
+## Acknowledgements
+
+* [Elliot Jackson](https://www.youtube.com/channel/UCX7q8yu2aY7AnwfoOeCEcgw) and his [screencast on managing a dotfiles repository with GitHub](https://www.youtube.com/watch?v=awtfkl50bUQ)
+* [Mathias Bynens](https://mathiasbynens.be/) and his [dotfiles repository](https://github.com/mathiasbynens/dotfiles)
