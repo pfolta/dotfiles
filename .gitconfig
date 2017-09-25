@@ -9,8 +9,8 @@
     graph = log --all --date-order --decorate --graph --oneline
 
     # Ignore changes to a committed file
-    ignore = update-index --assume-unchanged
-    unignore = update-index --no-assume-unchanged
+    untrack = update-index --assume-unchanged
+    track = update-index --no-assume-unchanged
 
     # Shorthands for commonly used commands
     a = add
