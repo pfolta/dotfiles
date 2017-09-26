@@ -14,13 +14,7 @@ $ dotfiles config --local status.showUntrackedFiles no
 $ dotfiles checkout
 ```
 
-Now you can use the `dotfiles` command to interact with the dotfiles repository:
-
-```bash
-$ dotfiles add [file]   # Add a file to the dotfiles repository
-$ dotfiles commit       # Commit changes
-$ dotfiles push         # Push changes to upstream repository
-```
+Now you can use the `dotfiles` command to interact with the dotfiles repository.
 
 ### Homebrew
 
@@ -52,7 +46,7 @@ $ curl -L http://install.ohmyz.sh | sh
 
 ```bash
 $ brew install zsh-autosuggestions
-$ brew install zsh zsh-completions
+$ brew install zsh-completions
 $ brew install zsh-syntax-highlighting
 ```
 
