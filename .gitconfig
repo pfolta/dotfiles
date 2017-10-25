@@ -21,6 +21,7 @@
     m = merge
     r = rebase --interactive
     s = status
+    sl = shortlog
 
 [core]
     # Use custom .gitignore
