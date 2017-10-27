@@ -10,4 +10,4 @@ alias show-hidden-files="defaults write com.apple.finder AppleShowAllFiles -bool
 alias hide-hidden-files="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Print each PATH entry on a separate line
-alias path='echo -e ${PATH//:/\\n}'
+alias path="echo -e ${PATH//:/\\n}"
