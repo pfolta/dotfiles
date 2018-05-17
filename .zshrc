@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$PATH:/usr/local/opt/openssl/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -9,7 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
-DEFAULT_USER=$(whoami)
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -96,11 +96,9 @@ source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 source "$HOME/.aliases"
+source "$HOME/.zshtheme"
 
-# Prompt
-prompt_dir() {
-    prompt_segment blue black '%1~'
-}
+# Ruby
+eval "$(rbenv init -)"

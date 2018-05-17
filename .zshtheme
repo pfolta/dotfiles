@@ -1,0 +1,7 @@
+# Override Prompt
+prompt_dir() {
+    prompt_segment blue black '%1~'
+}
+
+prompt_context() {
+}
