@@ -19,6 +19,7 @@
     f = fetch
     g = log --all --date-order --decorate --graph --oneline
     m = merge
+    pr = pull --rebase
     r = rebase --interactive
     s = status
     sl = shortlog
