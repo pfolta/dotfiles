@@ -14,7 +14,7 @@ alias path="echo -e ${PATH//:/\\n}"
 
 # Homebrew
 alias brew-update="brew update; brew outdated; brew cask outdated"
-alias brew-clean="brew cleanup; brew prune; brew cask cleanup"
+alias brew-clean="brew cleanup; brew prune"
 
 # System info
 alias cpuinfo="sysctl -n machdep.cpu.brand_string"
