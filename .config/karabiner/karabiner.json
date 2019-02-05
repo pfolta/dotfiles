@@ -17,6 +17,27 @@
                     {
                         "manipulators": [
                             {
+                                "description": "F4 to Application windows",
+                                "from": {
+                                    "key_code": "f4"
+                                },
+                                "to_after_key_up": [
+                                    {
+                                        "shell_command": "/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 2"
+                                    }
+                                ],
+                                "to_if_held_down": [
+                                    {
+                                        "shell_command": "/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 2"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "manipulators": [
+                            {
                                 "description": "F5 to Show Desktop",
                                 "from": {
                                     "key_code": "f5"
