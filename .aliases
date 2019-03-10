@@ -3,7 +3,7 @@ alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias g="git"
 
 # Clear DNS cache
-alias flush-dns="dscacheutil -flushcache && killall -HUP mDNSResponder"
+alias flush-dns="sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # Show/hide hidden files in Finder
 alias show-hidden-files="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
