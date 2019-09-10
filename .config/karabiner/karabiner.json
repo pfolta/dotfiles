@@ -1,6 +1,6 @@
 {
     "global": {
-        "check_for_updates_on_startup": true,
+        "check_for_updates_on_startup": false,
         "show_in_menu_bar": false,
         "show_profile_name_in_menu_bar": false
     },
@@ -11,7 +11,8 @@
                     "basic.simultaneous_threshold_milliseconds": 50,
                     "basic.to_delayed_action_delay_milliseconds": 500,
                     "basic.to_if_alone_timeout_milliseconds": 200,
-                    "basic.to_if_held_down_threshold_milliseconds": 200
+                    "basic.to_if_held_down_threshold_milliseconds": 200,
+                    "mouse_motion_to_scroll.speed": 100
                 },
                 "rules": [
                     {
@@ -83,9 +84,25 @@
                     {
                         "manipulators": [
                             {
-                                "description": "F13 to Screenshot Tool",
+                                "description": "F16 to Calculator",
                                 "from": {
-                                    "key_code": "f13"
+                                    "key_code": "f16"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a 'calculator.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "manipulators": [
+                            {
+                                "description": "F17 to Screenshot Tool",
+                                "from": {
+                                    "key_code": "f17"
                                 },
                                 "to": [
                                     {
@@ -99,49 +116,13 @@
                     {
                         "manipulators": [
                             {
-                                "description": "F14 to iTerm",
+                                "description": "F18 to iTerm",
                                 "from": {
-                                    "key_code": "f14"
+                                    "key_code": "f18"
                                 },
                                 "to": [
                                     {
                                         "shell_command": "open -a 'iTerm.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "manipulators": [
-                            {
-                                "description": "F15 to Emoji & Symbols",
-                                "from": {
-                                    "key_code": "f15"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "left_control",
-                                            "left_command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "manipulators": [
-                            {
-                                "description": "F16 to Calculator",
-                                "from": {
-                                    "key_code": "f16"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open -a 'Calculator.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -284,6 +265,9 @@
                 }
             ],
             "name": "Default profile",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": true,
             "simple_modifications": [
                 {
@@ -312,7 +296,8 @@
                 }
             ],
             "virtual_hid_keyboard": {
-                "country_code": 0
+                "country_code": 0,
+                "mouse_key_xy_scale": 100
             }
         }
     ]
