@@ -138,11 +138,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "q",
-                                        "modifiers": [
-                                            "left_control",
-                                            "left_command"
-                                        ]
+                                        "shell_command": "open -a 'ScreensaverEngine.app'"
                                     }
                                 ],
                                 "type": "basic"
