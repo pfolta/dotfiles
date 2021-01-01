@@ -13,8 +13,8 @@ alias hide-hidden-files="defaults write com.apple.finder AppleShowAllFiles -bool
 alias path="echo -e ${PATH//:/\\n}"
 
 # Homebrew
-alias brew-update="brew update; brew outdated; brew cask outdated --greedy"
-alias brew-upgrade="brew upgrade; brew cask outdated --greedy --quiet | xargs brew cask reinstall"
+alias brew-update="brew update; brew outdated --greedy"
+alias brew-upgrade="brew upgrade --greedy"
 alias brew-clean="brew cleanup"
 
 # System info
