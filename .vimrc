@@ -26,6 +26,9 @@ Plugin 'itchyny/lightline.vim'
 
 " Git line status
 Plugin 'airblade/vim-gitgutter'
+
+" Multiple cursors
+Plugin 'mg979/vim-visual-multi'
 call vundle#end()
 
 colorscheme nord
