@@ -24,12 +24,12 @@
                                 },
                                 "to_after_key_up": [
                                     {
-                                        "shell_command": "/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 2"
+                                        "shell_command": "/System/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 2"
                                     }
                                 ],
                                 "to_if_held_down": [
                                     {
-                                        "shell_command": "/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 2"
+                                        "shell_command": "/System/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 2"
                                     }
                                 ],
                                 "type": "basic"
@@ -45,12 +45,12 @@
                                 },
                                 "to_after_key_up": [
                                     {
-                                        "shell_command": "/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 1"
+                                        "shell_command": "/System/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 1"
                                     }
                                 ],
                                 "to_if_held_down": [
                                     {
-                                        "shell_command": "/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 1"
+                                        "shell_command": "/System/Applications/Mission\\ Control.app/Contents/MacOS/Mission\\ Control 1"
                                     }
                                 ],
                                 "type": "basic"
