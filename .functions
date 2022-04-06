@@ -1,0 +1,18 @@
+function makessh () {
+    if [[ $# == 0 ]]; then
+        echo "usage: makessh hostname"
+        return 1
+    fi
+
+    KEY_TYPE="rsa"
+    BITS="4096"
+    KEY_FORMAT="pem"
+    PASSPHRASE="" # Leave empty for no passphrase
+
+    OUT_DIR="$HOME/.ssh"
+    KEY_FILE="$OUT_DIR/$1.id_rsa"
+
+    echo "Generating SSH keypair for '$1'..."
+    ssh-keygen -t "$KEY_TYPE" -b "$BITS" -m "$KEY_FORMAT" -N "$PASSPHRASE" -C "$1" -f "$KEY_FILE" -q
+    echo "Created SSH keypair for '$1' in '$KEY_FILE' and '$KEY_FILE.pub'"
+}

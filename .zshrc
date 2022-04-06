@@ -98,7 +98,6 @@ source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 source "$HOME/.aliases"
+source "$HOME/.functions"
 source "$HOME/.zshtheme"
 
-# Ruby
-eval "$(rbenv init -)"
